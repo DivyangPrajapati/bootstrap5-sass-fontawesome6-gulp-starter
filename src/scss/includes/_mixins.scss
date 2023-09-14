@@ -1,0 +1,87 @@
+// Small devices
+@mixin sm {
+   @media (min-width: #{$screen-sm-min}) {
+       @content;
+   }
+}
+
+// Small devices (max-width)
+@mixin smmax {
+   @media (max-width: #{$screen-sm-max}) {
+       @content;
+   }
+}
+
+// Medium devices
+@mixin md {
+   @media (min-width: #{$screen-md-min}) {
+       @content;
+   }
+}
+
+// Medium devices
+@mixin mdmax {
+   @media (max-width: #{$screen-md-max}) {
+       @content;
+   }
+}
+
+// Large devices
+@mixin lg {
+   @media (min-width: #{$screen-lg-min}) {
+       @content;
+   }
+}
+
+// Large devices
+@mixin lgmax {
+   @media (max-width: #{$screen-lg-max}) {
+       @content;
+   }
+}
+
+// Extra large devices
+@mixin xl {
+   @media (min-width: #{$screen-xl-min}) {
+       @content;
+   }
+}
+
+// Extra large devices
+@mixin xlmax {
+   @media (max-width: #{$screen-xl-max}) {
+       @content;
+   }
+}
+
+// Extra extra large devices
+@mixin xxl {
+    @media (min-width: #{$screen-xxl-min}) {
+        @content;
+    }
+ }
+ 
+ // Extra extra large devices
+ @mixin xxlmax {
+    @media (max-width: #{$screen-xxl-max}) {
+        @content;
+    }
+ }
+
+// Min-Width for Custom devices
+@mixin cdmin($screen) {
+   @media (min-width: $screen+'px') {
+       @content;
+   }
+}
+// Max-Width for Custom devices
+@mixin cdmax($screen) {
+   @media (max-width: $screen+'px') {
+       @content;
+   }
+}
+
+// Transition
+@mixin transition($transition: all 0.3s) {
+  transition: $transition;
+}

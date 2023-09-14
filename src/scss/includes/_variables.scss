@@ -1,0 +1,45 @@
+$bg-color: #E0E0E0;
+//$bg-light: rgba($bg-color, 0.9);
+//$bg-dark: #101D23;
+
+$font-family-base: 'Inter', sans-serif;;
+// $font-family-primary: 'Sora', sans-serif;
+// $icons-font: "Font Awesome 6 Free";
+
+$color-primary: #579C87;
+$color-secondary: #A1C181;
+$color-text: #101D23;
+$color-link: #3B3B3B;
+
+/* $color-btn-txt: #ffffff;
+$color-btn: $color-primary;
+$color-btn-hover: $color-primary; */
+
+/* $color-btn-sec: $color-secondary;
+$color-btn-sec-hover: $color-secondary; */
+
+$border-radius: 4px;
+
+$font-size: 14px;
+$font-sm: 8px;
+$font-size-btn: 14px;
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+$screen-sm-max: 575px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+$screen-md-max: 767px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+$screen-lg-max: 991px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+$screen-xl-max: 1199px;
+
+// Extra extra large and desktops
+$screen-xxl-min: 1400px;
+$screen-xxl-max: 1399px;
